@@ -1,0 +1,226 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background: fixed;
+  background-color: rgb(47, 47, 47);
+}
+.handing {
+  position: relative;
+  text-align: center;
+  margin-top: 80px;
+  color: white;
+}
+.container {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1%;
+  width: 50%;
+  height: 500px;
+  margin-left: 25%;
+  margin-right: 25%;
+  justify-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+}
+.progress-bar {
+  position: relative;
+  top: 18px;
+  max-width: 80%;
+  height: 15px;
+  background-color: red;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 200px;
+}
+.progress-bar .progress-bar-color {
+  position: absolute;
+  height: 100%;
+  background-color: rgb(72, 22, 57);
+  /* animation: progressAnimation 4s forwards; */
+  border-radius: 200px;
+  width: ;
+  transition-duration: 3s;
+}
+/* @keyframes progressAnimation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+} */
+.question-body {
+  margin-top: 5%;
+  max-width: 80%;
+  overflow: auto;
+  height: 380px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.title {
+  /* margin-bottom: 5%; */
+}
+.title h1 {
+  color: rgb(91, 0, 0);
+}
+.title p {
+  margin-top: 1%;
+  color: rgb(179, 177, 177);
+}
+.question1-container {
+  margin-top: 5%;
+}
+.question1 {
+  text-align: start;
+  margin-left: 5%;
+}
+.question1-answer input {
+  margin-top: 1%;
+  width: 90%;
+  height: 30px;
+  border-radius: 12px;
+  background-color: rgb(179, 177, 177);
+}
+.question2-container {
+  margin-top: 5%;
+}
+.question2 {
+  text-align: start;
+  margin-left: 5%;
+}
+.qu2-ans {
+  position: relative;
+  margin-top: 1%;
+  display: inline-block;
+  height: 40px;
+  width: 100%;
+}
+.question2-answer {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 5%;
+  width: 40%;
+  /* height: 30px; */
+  font-size: 23px;
+  border-radius: 12px;
+  background-color: rgb(179, 177, 177);
+}
+.question3-answer {
+  position: absolute;
+  width: 40%;
+  margin-top: 1%;
+  margin-left: 55%;
+  top: 0%;
+  font-size: 23px;
+  border-radius: 12px;
+  background-color: rgb(179, 177, 177);
+}
+.qu3-ans {
+  position: relative;
+  margin-top: 1%;
+  display: inline-block;
+  height: 40px;
+  width: 100%;
+}
+.question3-container {
+  margin-top: 5%;
+  /* margin-bottom: 5%;  */
+}
+.question4-answer {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 5%;
+  width: 40%;
+  /* height: 30px; */
+  font-size: 23px;
+  border-radius: 12px;
+  background-color: rgb(179, 177, 177);
+}
+.question5-answer {
+  position: absolute;
+  width: 40%;
+  margin-top: 1%;
+  margin-left: 55%;
+  top: 0%;
+  font-size: 23px;
+  border-radius: 12px;
+  background-color: rgb(179, 177, 177);
+}
+.question3 {
+  text-align: start;
+  margin-left: 5%;
+}
+.question4-container {
+  margin-top: 5%;
+}
+.question4 {
+  text-align: start;
+  margin-left: 5%;
+}
+.question6-answer input {
+  margin-top: 1%;
+  width: 90%;
+  height: 30px;
+  border-radius: 12px;
+  background-color: rgb(179, 177, 177);
+}
+.question5-container {
+  margin-top: 5%;
+}
+.question5 {
+  text-align: start;
+  margin-left: 5%;
+}
+.question7-answer select {
+  margin-top: 1%;
+  width: 90%;
+  height: 30px;
+  border-radius: 12px;
+  background-color: rgb(179, 177, 177);
+}
+.question6-container {
+  margin-top: 5%;
+}
+.question6 {
+  text-align: start;
+  margin-left: 5%;
+}
+.question8-answer select {
+  margin-top: 1%;
+  width: 90%;
+  height: 30px;
+  border-radius: 12px;
+  background-color: rgb(179, 177, 177);
+}
+.btn {
+  margin-top: 1.2%;
+  font-size: 25px;
+  color: white;
+  background-color: red;
+  width: 200px;
+  border-radius: 22px;
+}
+@media(max-width: 970px){
+  .question2-answer {
+font-size: 20px;
+  }
+  .question3-answer {
+    font-size: 20px;
+}
+.question4-container {
+  margin-top: 10%;
+}
+.question4-answer {
+  font-size: 20px;
+    }
+    .question5-answer {
+      font-size: 20px;
+}
+

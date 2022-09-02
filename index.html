@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="handing">
+      <h1>Driving License Renewal</h1>
+    </div>
+    <div class="container">
+      <div class="progress-bar">
+        <div class="progress-bar-color"></div>
+      </div>
+      <div class="question-body">
+        <div class="title">
+          <h1>Let's get started!</h1>
+          <p>Add your details(As per your registered records)</p>
+        </div>
+        <div class="question1-container">
+          <div class="question1">
+            <p>Name</p>
+          </div>
+          <div class="question1-answer">
+            <input class="qu1-answer" type="text" placeholder="Enter Name" />
+          </div>
+        </div>
+        <div class="question2-container">
+          <div class="question2">
+            <p>Nature of Driving License</p>
+          </div>
+          <div class="qu2-ans">
+            <div class="question2-answer">
+              <input
+                class="qu2-answer"
+                type="radio"
+                name="natureDl"
+                id="natureRadioBtn1"
+              />
+              <label>Private</label>
+            </div>
+            <div class="question3-answer">
+              <input
+                class="qu3-answer"
+                type="radio"
+                name="natureDl"
+                id="natureRadioBtn2"
+              />
+              <label>Commercial</label>
+            </div>
+          </div>
+        </div>
+        <div class="question3-container">
+          <div class="question3">
+            <p>Type of Previous Driving License</p>
+          </div>
+          <div class="qu3-ans">
+            <div class="question4-answer">
+              <input type="radio" name="previous-dl" id="typeRadioBtn1" />
+              <label>Paper Driving License</label>
+            </div>
+            <div class="question5-answer">
+              <input type="radio" name="previous-dl" id="typeRadioBtn2" />
+              <label>Smart Driving License</label>
+            </div>
+          </div>
+
+          <div class="question4-container">
+            <div class="question4">
+              <p>Place where Driving License was issued</p>
+            </div>
+            <div class="question6-answer">
+              <input
+                class="qu6-answer"
+                type="text"
+                placeholder="Enter Place Name"
+              />
+            </div>
+          </div>
+          <div class="question5-container">
+            <div class="question5">
+              <p>Issued Year of License</p>
+            </div>
+            <div class="question7-answer">
+              <select id="select1">
+                <option>Choose Issued Year of License</option>
+                <option>Sales</option>
+                <option>Document Pickup</option>
+                <option>Document Dispatch</option>
+                <option>Document Return</option>
+                <option>payment</option>
+              </select>
+            </div>
+          </div>
+          <div class="question6-container">
+            <div class="question6">
+              <p>Type of Previous Driving License</p>
+            </div>
+            <div class="question8-answer">
+              <select id="select2">
+                <option>Choose Expired Year of License</option>
+                <option>Sales</option>
+                <option>Document Pickup</option>
+                <option>Document Dispatch</option>
+                <option>Document Return</option>
+                <option>payment</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button type="button" class="btn" onclick={btnclicked}>
+          <i class="fas fa-chevron-left"></i>&nbsp; Back
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
